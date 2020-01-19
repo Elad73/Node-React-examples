@@ -7,7 +7,7 @@ class HomePage extends React.Component {
             <div className="ui container">
                 <h1 className="ui header">Projects</h1>
                 <div className="ui horizontal divider">
-                    Season
+                    Reacr
                 </div>
                 <div className="ui raised very padded text container segment">
                     <div className="item">
@@ -17,6 +17,14 @@ class HomePage extends React.Component {
                 <div className="ui raised very padded text container segment">
                     <div className="item">
                         <Link to="/pics">Pics</Link>
+                    </div>
+                </div>
+                <div className="ui horizontal divider">
+                    React + Redux
+                </div>
+                <div className="ui raised very padded text container segment">
+                    <div className="item">
+                        <Link to="/songs">Songs</Link>
                     </div>
                 </div>
             </div>

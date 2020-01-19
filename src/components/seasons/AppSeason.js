@@ -29,7 +29,7 @@ class AppSeason extends React.Component {
     //react says we have to deifn render!!!
     render() {
         return (
-            <div className="border red">
+            <div className="ui raised very padded text container segment">
                 {this.renderContent()}
             </div>
         )
