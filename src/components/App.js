@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Header from './Header';
 import HomePage from './HomePage';
+import AppSeason from './seasons/AppSeason';
 
 const App = () => {
     return (
@@ -10,6 +11,7 @@ const App = () => {
                 <Header />
                 <div>
                     <Route path="/" exact component={HomePage} />
+                    <Route path="/seasons" exact component={AppSeason} />
                 </div>
             </BrowserRouter>
         </div>

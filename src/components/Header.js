@@ -17,9 +17,9 @@ const Header = () => {
                 </div>
                 <div className="item">Version</div>
                 <div className="item">Lang</div>
-                <a href="https://github.com/Elad73/Node-React-examples" target="_blank" className="item">
+                <a href="https://github.com/Elad73/Node-React-examples" target="_blank" rel="noopener noreferrer" className="item">
                     GitHub
-                    <i class="external alternate icon"></i>
+                    <i className="external alternate icon"></i>
                 </a>
             </div>
         </div>
