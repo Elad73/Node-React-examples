@@ -1,4 +1,4 @@
-import './Loader.css'
+import './css/Loader.css';
 import React from 'react';
 
 const Loader = props => {

@@ -5,18 +5,19 @@ class HomePage extends React.Component {
     render() {
         return (
             <div className="ui container">
-                <p>
-                    <h1 class="ui header">Projects</h1>
-                </p>
-                <div class="ui horizontal divider">
+                <h1 className="ui header">Projects</h1>
+                <div className="ui horizontal divider">
                     Season
                 </div>
                 <div className="ui raised very padded text container segment">
-                    <p className="item">
-                        <div>
-                            <Link to="/seasons">Season</Link>
-                        </div>
-                    </p>
+                    <div className="item">
+                        <Link to="/seasons">Season</Link>
+                    </div>
+                </div>
+                <div className="ui raised very padded text container segment">
+                    <div className="item">
+                        <Link to="/pics">Pics</Link>
+                    </div>
                 </div>
             </div>
         );

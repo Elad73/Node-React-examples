@@ -1,4 +1,4 @@
-import './SeasonDisplay.css'
+import './css/SeasonDisplay.css'
 import React from 'react';
 
 const WINTER = 'winter';
