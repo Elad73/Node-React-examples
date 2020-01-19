@@ -6,13 +6,21 @@ const Header = () => {
     return (
         <div className="ui secondary pointing menu">
             <Link to="/" className="item">
-                Node React Exaple Projects
+                Home
             </Link>
             <div className="right menu">
                 <Link to="/" className="item">
                     All Projects
-                </Link>
-                <GoogleAuth />
+                </Link> 
+                <div className="item">
+                    <GoogleAuth /> 
+                </div>
+                <div className="item">Version</div>
+                <div className="item">Lang</div>
+                <a href="https://github.com/Elad73/Node-React-examples" target="_blank" className="item">
+                    GitHub
+                    <i class="external alternate icon"></i>
+                </a>
             </div>
         </div>
     );
