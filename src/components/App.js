@@ -5,6 +5,7 @@ import HomePage from './HomePage';
 import AppSeason from './seasons/AppSeason';
 import AppPics from './pics/AppPics';
 import AppSongs from './songs/AppSongs';
+import AppVideos from './videos/AppVideos';
 
 const App = () => {
     return (
@@ -16,6 +17,7 @@ const App = () => {
                     <Route path="/seasons" exact component={AppSeason} />
                     <Route path="/pics" exact component={AppPics} />
                     <Route path="/songs" exact component={AppSongs} />
+                    <Route path="/videos" exact component={AppVideos} />
                 </div>
             </BrowserRouter>
         </div>
